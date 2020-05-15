@@ -1,7 +1,7 @@
 {
-  "short_name": "next-tailwind-styled-component",
-  "name": "next-tailwind-styled-component",
-  "description": "NextJS boilerplate with Tailwind CSS and Styled-Components",
+  "short_name": "ssr-dark-mode-pwa-boilerplate",
+  "name": "SSR Dark Mode",
+  "description": "SSR Dark Mod NextJS boilerplate with Tailwind CSS and Styled-Components",
   "dir": "ltr",
   "lang": "en",
   "icons": [
@@ -11,7 +11,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/page2",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#317EFB",
   "background_color": "#317EFB"
