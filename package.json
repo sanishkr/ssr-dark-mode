@@ -1,7 +1,7 @@
 {
-  "name": "pwa-boilerplate",
+  "name": "ssr-dark-mode-pwa-boilerplate",
   "version": "1.0.0",
-  "description": "NextJS boilerplate with Tailwind CSS and Styled-Components",
+  "description": "NextJS boilerplate with Tailwind CSS and Styled-Components | SSR Dark Mode",
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
@@ -31,7 +31,9 @@
     "redux",
     "seo",
     "critical css",
-    "workbox"
+    "workbox",
+    "ssr",
+    "dark mode"
   ],
   "author": "SNS",
   "license": "ISC",
@@ -39,6 +41,7 @@
     "@zeit/next-css": "^1.0.1",
     "axios": "^0.19.0",
     "babel-plugin-macros": "^2.6.1",
+    "compression": "^1.7.4",
     "express": "^4.17.1",
     "next": "^9.1.1",
     "next-offline": "^4.0.6",

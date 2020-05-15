@@ -3,7 +3,3 @@
 @tailwind components;
 
 @tailwind utilities;
-
-body {
-  @apply bg-green-900 text-white;
-}

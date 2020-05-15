@@ -2,11 +2,11 @@ import React from 'react';
 import App from 'next/app';
 import Head from 'next/head';
 
-import { ThemeProvider } from 'styled-components';
-
 import withRedux from 'next-redux-wrapper';
 import { Provider } from 'react-redux';
 import makeStore from '../store';
+import AppTheme from '../components/AppTheme';
+import '../assets/css/index.css';
 
 class NextApp extends App {
   render() {
@@ -27,9 +27,9 @@ class NextApp extends App {
           {/* <link rel="icon" sizes="192x192" href={favicon} /> */}
         </Head>
         <Provider store={store}>
-          <ThemeProvider theme={{}}>
+          <AppTheme>
             <Component {...pageProps} />
-          </ThemeProvider>
+          </AppTheme>
         </Provider>
       </>
     );
