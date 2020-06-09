@@ -1,7 +1,7 @@
 {
-  "short_name": "ssr-dark-mode-pwa-boilerplate",
+  "short_name": "SSR Dark Mode",
   "name": "SSR Dark Mode",
-  "description": "SSR Dark Mod NextJS boilerplate with Tailwind CSS and Styled-Components",
+  "description": "SSR Dark Mode NextJS boilerplate with Tailwind CSS and Styled-Components",
   "dir": "ltr",
   "lang": "en",
   "icons": [
